@@ -30,6 +30,6 @@ console.log(costOf('Happy Birthday Rob!', 'dollars'))
 
 function costOf(sign, currency) {
     let basePrice = 20;
-    let totalPrice = basePrice + 2 * (sign.length);
-    return `Your sign costs ${totalPrice} ${currency}.`
+    let totalPrice = basePrice + 2.1221234 * (sign.length);
+    return `Your sign costs ${totalPrice.toFixed(2)} ${currency}.`
 }
